@@ -29,24 +29,37 @@ The Box Opener Game allows users to open virtual boxes using in-game currency. E
 
 ---
 
+## Setup
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Running the App
+
+```bash
+python -m src.ui_qt.main
+```
+
 ## Project Structure
 
 ```text
-box-opener-game/
+RNG_Box_Game/
 │
-├── main.py              # Application entry point
-├── ui/
-│   ├── main_window.py   # Main UI components
-│   └── assets/          # Images and UI resources
-│
-├── game/
-│   ├── box.py           # Loot box logic
-│   ├── item.py          # Item and rarity definitions
-│   ├── player.py        # Player inventory and currency
-│   └── rng.py           # Randomization utilities
+├── src/
+│   ├── ui_qt/
+│   │   └── main.py         # Qt UI entry point
+│   └── game/
+│       ├── loot.py         # Loot roll logic
+│       ├── models.py       # Item, tier, and player models
+│       ├── save.py         # Save system (placeholder)
+│       └── service.py      # Game services (placeholder)
 │
 ├── data/
-│   └── items.json       # Item data and drop rates
+│   ├── items.json          # Item data and drop rates
+│   └── tiers.json          # Tier costs and rarity weights
 │
 ├── requirements.txt
 └── README.md
