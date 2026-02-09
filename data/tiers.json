@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Tier_1",
+    "name": "Tier 1 Box",
+    "cost": 10,
+    "rarity_weights": { "common": 80, "rare": 18, "epic": 2, "legendary": 0 }
+  },
+  {
+    "id": "Tier_2",
+    "name": "Tier 2 Box",
+    "cost": 100,
+    "rarity_weights": { "common": 50, "rare": 35, "epic": 13, "legendary": 2 }
+  }
+]

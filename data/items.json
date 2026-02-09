@@ -1,0 +1,7 @@
+[
+  { "id": "common_dagger", "name": "Common Dagger", "rarity": "common", "sell_value": 2 },
+  { "id": "common_sneakers", "name": "Common Sneakers", "rarity": "common", "sell_value": 2 },
+  { "id": "rare_hoodie", "name": "Rare Hoodie", "rarity": "rare", "sell_value": 8 },
+  { "id": "epic_coin", "name": "Epic Coin", "rarity": "epic", "sell_value": 25 },
+  { "id": "legendary_relic", "name": "Legendary Relic", "rarity": "legendary", "sell_value": 150 }
+]
